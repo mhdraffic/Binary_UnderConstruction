@@ -17,8 +17,37 @@
 <!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="css/util.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
-	<link rel="stylesheet" type="text/css" href="css/preload.css">
+	<!--link rel="stylesheet" type="text/css" href="css/preload.css"-->
 <!--===============================================================================================-->
+	<style>
+		#popUpMain{
+        position:fixed;
+        width:100%;
+        height:100%;
+        background: rgba(255,255,255,0.6);
+	background-size: 300px;
+        z-index:1000;
+
+    }
+#popup{
+        width:550px;
+        height:280px;       
+	background:url("images/Welcome.png") no-repeat center;
+        background-size: cover;        
+        position:absolute;
+        top:50%;
+        left:50%;
+        transform:translate(-50%,-50%);
+        /*box-shadow: 1px 2px 5px 3px white;*/
+        text-align: center;
+    }
+#newsHeading{
+    transform:translatey(10px);
+    color:whitesmoke;
+	  padding-left:58px;
+	  padding-right: 60px;
+}
+	</style>
 </head>
 <body style="height:450px !important">
 	
