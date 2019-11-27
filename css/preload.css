@@ -10,7 +10,7 @@
     #popup{
         width:550px;
         height:280px;       
-		    background:url('img/Welcome.png') no-repeat center;
+		    background:url('images/Welcome.png') no-repeat center;
         background-size: cover;        
         position:absolute;
         top:50%;
